@@ -10,7 +10,7 @@ $main-color: #333;
 
 
 header {
-    height: 580px;
+    height: 880px;
 
     nav {
         width: 100%;
@@ -23,20 +23,20 @@ header {
                 width: 100%;
             }
         }
-    
+
         .menu {
             height: 80px;
             line-height: 80px;
-            
+
             ul {
                 display: flex;
                 justify-content: flex-end;
                 margin-right: -20px;
-                
+
                 li {
                     align-items: center;
                     padding: 0 20px;
-                    
+
                     a {
                         transition: ease-in-out .3s;
                         text-decoration: none;
@@ -45,11 +45,11 @@ header {
                         &:hover {
                             color: $main-color;
                         }
-                    
+
                     }
                 }
             }
-    
+
         }
     }
 
@@ -63,12 +63,13 @@ header {
         background-position: center;
         background-size: cover;
         z-index: -1;
-        
+
     }
-            .parallax-window {
-                min-height: 400px;
-                background: transparent;
-            }
+
+    .parallax-window {
+        min-height: 400px;
+        background: transparent;
+    }
 
     .title {
         position: absolute;
@@ -80,8 +81,21 @@ header {
 }
 
 main {
-    
-    height: 500px;
+    .about {
+
+        .row {
+            margin: 20px auto;
+            align-items: center;
+
+            .txt {}
+
+            .img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 footer {

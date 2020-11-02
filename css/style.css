@@ -9,7 +9,7 @@
 }
 
 header {
-  height: 580px;
+  height: 880px;
 }
 
 header nav {
@@ -83,8 +83,15 @@ header .title {
   color: #fff;
 }
 
-main {
-  height: 500px;
+main .about .row {
+  margin: 20px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .about .row .img img {
+  width: 100%;
 }
 
 footer {
