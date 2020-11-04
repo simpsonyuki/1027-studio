@@ -9,7 +9,7 @@
 }
 
 header {
-  height: 880px;
+  height: 800px;
 }
 
 header nav {
@@ -83,6 +83,10 @@ header .title {
   color: #fff;
 }
 
+main section {
+  margin: 100px auto;
+}
+
 main .about .row {
   margin: 20px auto;
   -webkit-box-align: center;
@@ -92,6 +96,54 @@ main .about .row {
 
 main .about .row .img img {
   width: 100%;
+}
+
+main .product {
+  height: 600px;
+  background-image: url(../img/contact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+main .product .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .product .pro {
+  position: absolute;
+  top: 100px;
+  right: 5%;
+}
+
+main .product .pro .pro-items {
+  text-align: center;
+}
+
+main .product .pro .pro-items .pro-img {
+  background-image: linear-gradient(179.4deg, #fdf0e9 2.2%, #ffc2cb 96.2%);
+  padding: 20px 3px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.2);
+          box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.2);
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+main .product .pro .pro-items .pro-img img {
+  font-weight: 600;
+  width: 250px;
+}
+
+main .product .pro .pro-items .pro-title {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+main .contact {
+  height: 500px;
 }
 
 footer {
