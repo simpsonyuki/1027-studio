@@ -107,6 +107,15 @@ main {
         background-position: center;
         position: relative;
 
+        .cust {
+            width: 500px;
+
+            img {
+                width: 300px;
+                margin: 0 auto; 
+            }
+        }
+
     }
 
     .product {
