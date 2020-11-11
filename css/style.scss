@@ -117,7 +117,7 @@ main {
                 position: relative;
                 background: #fff;
                 padding: 20px;
-                box-shadow: #333 2px 2px 2px;s
+                box-shadow: #333 2px 2px 2px;
         
                 img {
                     width: 100%;
@@ -130,9 +130,6 @@ main {
                     padding: 10px;
                     background: #fff;
                     
-                    &::before {
-                        content: '';
-                    }
                 }
             }
 

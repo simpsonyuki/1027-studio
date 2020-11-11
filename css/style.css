@@ -121,8 +121,7 @@ main .customer .cust .mesage {
           box-shadow: #333 2px 2px 2px;
 }
 
-main .customer .cust .mesage s
-img {
+main .customer .cust .mesage img {
   width: 100%;
   margin: 0 auto;
 }
@@ -132,10 +131,6 @@ main .customer .cust .mesage .cus-txt {
   bottom: 0;
   padding: 10px;
   background: #fff;
-}
-
-main .customer .cust .mesage .cus-txt::before {
-  content: '';
 }
 
 main .product .pro .pro-items {
