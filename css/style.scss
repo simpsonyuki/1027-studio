@@ -108,12 +108,31 @@ main {
         position: relative;
 
         .cust {
-            width: 500px;
+            position: absolute;
+            width: 350px;
+            top: 80px;
+            right: 300px; 
 
-            img {
-                width: 300px;
-                margin: 0 auto; 
+            .mesage {
+                position: relative;
+        
+                img {
+                    width: 100%;
+                    margin: 0 auto; 
+                }
+
+                .cus-txt {
+                    position: absolute;
+                    bottom: 0;
+                    padding: 10px;
+                    background: #fff;
+                    
+                    &::before {
+                        content: '';
+                    }
+                }
             }
+
         }
 
     }
@@ -128,7 +147,7 @@ main {
                 .pro-img {
                     background-image: linear-gradient( 179.4deg,  rgba(253,240,233,1) 2.2%, rgba(255,194,203,1) 96.2% );             
                     padding: 20px 3px;
-                    border-radius: 10px;
+                    border-radius: 5px;
                     box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.2);
                     width: 300px;
                     margin: 0 auto 10px;
