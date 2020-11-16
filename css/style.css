@@ -158,6 +158,10 @@ main .product .pro .pro-items .pro-title {
 }
 
 main .contact {
+  margin-bottom: 0;
+}
+
+main .contact .contact-bg {
   height: 500px;
 }
 

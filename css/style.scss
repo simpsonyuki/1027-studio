@@ -171,7 +171,12 @@ main {
     }
 
     .contact {
-        height: 500px;
+        margin-bottom: 0;
+        
+        .contact-bg {
+            height: 500px;
+        }
+
     }
 }
 
